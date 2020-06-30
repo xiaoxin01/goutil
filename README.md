@@ -1,3 +1,5 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/xiaoxin01/goutil)](https://goreportcard.com/report/github.com/xiaoxin01/goutil) [![Build Status](https://travis-ci.org/xiaoxin01/goutil.svg?branch=master)](https://travis-ci.org/xiaoxin01/goutil)
+
 # a util package for go
 
 ## strutil

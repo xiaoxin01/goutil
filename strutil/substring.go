@@ -6,7 +6,7 @@ func SubBytesWithRuneCheck(bs []byte, lengthLimit int) []byte {
 		return nil
 	}
 	bsLen := len(bs)
-	max := min(bsLen,lengthLimit)
+	max := min(bsLen, lengthLimit)
 	right := max
 getLast:
 	for i := 1; i <= 4; i++ {
@@ -54,8 +54,8 @@ func getCharLength(b byte) int {
 }
 
 func min(a, b int) int {
-    if a < b {
-        return a
-    }
-    return b
+	if a < b {
+		return a
+	}
+	return b
 }
